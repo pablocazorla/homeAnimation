@@ -1,0 +1,69 @@
+<!doctype HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>home Animation</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		
+		<!-- CSS -->
+		<link href='//fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+		<link type="text/css" rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="site-navigation">
+			<div class="site-navigation-icon to-open-site-navigation">
+				<span class="lineIconNav lineIconNav1"></span><span class="lineIconNav lineIconNav2"></span><span class="lineIconNav lineIconNav3"></span>
+			</div>
+			<div class="site-navigation-content">
+			NO se ve		
+			</div>
+		</div>
+		<div id="shell">
+			<div class="frame current">
+
+				<!-- HOME -->
+				<style type="text/css">
+					#site-navigation{left:-420px;}
+					.sub-frame{
+						transition: left .3s;-moz-transition: left .3s;-webkit-transition: left .3s;
+					}
+					.sub-frame.to-full{left:0;}
+				</style>
+				<script type="text/javascript">pageID = 'home';</script>
+				<article class="sub-frame to-full page home">
+					<div id="home-container">
+						<div class="slide" id="rojo">
+							<div style="background:red;width:400px;height:260px">
+								Pablo Cazorla
+							</div>
+						</div>
+						<div class="slide" id="azul">
+							<div style="background:blue;width:400px;height:370px"></div>
+						</div>
+						<div class="slide" id="verde">
+							<div style="background:green;width:700px;height:260px"></div>
+						</div>
+						<div class="slide" id="gris">
+							<div style="background:grey;width:400px;height:120px"></div>
+						</div>
+						<div class="slide" id="naranja">
+							<div style="background:orange;width:400px;height:250px"></div>
+						</div>
+					</div>
+					<footer id="footer-main">
+						Created by Pablo Cazorla under licence <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons</a> - 2014. 
+					</footer>
+				</article>				
+				<!-- END OF HOME -->
+
+			</div><!-- END OF Frame -->
+		</div><!-- END OF Shell -->
+		<div id="pc-loading-graph" class="loader-graph"></div>
+		<script src="js/libs/jquery-1.9.1.min.js"></script>
+		<script src="js/libs/simplyr.js" type="text/javascript" data-main="js/main"></script>
+	</body>
+</html>
